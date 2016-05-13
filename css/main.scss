@@ -1,0 +1,53 @@
+@import "materialize-src/sass/materialize";
+
+@mixin color ($bgcolor){
+	background-color:$bgcolor;
+	width:150px;
+	height:150px;
+	display:inline-block;
+}
+.cuadrado1{
+	@include color(#69e2e7);
+}
+.cuadrado2{
+	@include color(#a7dbdb);
+}
+.cuadrado3{
+	@include color(#e0e4cc);
+}
+.cuadrado4{
+	@include color(#f38630);
+}
+.cuadrado5{
+	@include color(#fa6900);
+}
+.cuadrado6{
+	@include color(#e94c6f);
+}
+.cuadrado7{
+	@include color(#542733);
+}
+
+nav{
+	background-color:#59D38A;
+}
+.nav-wrapper img{
+	width:80px;
+	height:50px;
+	padding-left:10px;
+}
+.fondo{
+	background-image:url(../img/carousel-bg.jpg);
+	background-size:cover;
+	width:100%;
+	height:500px;
+}
+.txt h3,h5{
+	text-align:center;
+	color:white;
+	padding-top:50px;
+	padding-left:10px;
+}
+hr{
+	width:50px;
+}
