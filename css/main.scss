@@ -27,7 +27,60 @@
 .cuadrado7{
 	@include color(#542733);
 }
-
+.cuadrado8{
+	@include color(#5a6a62);
+}
+.cuadrado9{
+	@include color(#c6d5cd);
+}
+.cuadrado10{
+	@include color(#fdf200);
+}
+.cuadrado11{
+	@include color(#db3340);
+}
+.cuadrado12{
+	@include color(#e8b71a);
+}
+.cuadrado13{
+	@include color(#f7eac8);
+}
+.cuadrado14{
+	@include color(#1fda9a);
+}
+.cuadrado15{
+	@include color(#28abe3);
+}
+.cuadrado16{
+	@include color(#588c73);
+}
+.cuadrado17{
+	@include color(#f2e394);
+}
+.cuadrado18{
+	@include color(#f2ae72);
+}
+.cuadrado19{
+	@include color(#d96459);
+}
+.cuadrado20{
+	@include color(#8c4646);
+}
+.cuadrado21{
+	@include color(#d0c91f);
+}
+.cuadrado22{
+	@include color(#85c4b9);
+}
+.cuadrado23{
+	@include color(#008bba);
+}
+.cuadrado24{
+	@include color(#df514c);
+}
+.cuadrado25{
+	@include color(#dc403b);
+}
 nav{
 	background-color:#59D38A;
 }
@@ -48,6 +101,21 @@ nav{
 	padding-top:50px;
 	padding-left:10px;
 }
+h3{
+	text-align:center;
+}
 hr{
 	width:50px;
+}
+.fondocolor{
+	background-color:#060649;
+	width:100%;
+	height:500px;
+}
+.imaA{
+	background-image:url(../img/agency-img3.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	width:100%;
+	height:250px;
 }
